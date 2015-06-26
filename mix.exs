@@ -45,7 +45,7 @@ defmodule ExNexmo.Mixfile do
   defp deps do
     [ 
       {:httpoison, "~> 0.3" },
-      {:hackney, "~> 0.13.1" },
+      {:hackney, "~> 0.14.3" },
       {:poison, "~> 1.3"},
       {:mock, "~> 0.1.0", only: :test}]
   end
